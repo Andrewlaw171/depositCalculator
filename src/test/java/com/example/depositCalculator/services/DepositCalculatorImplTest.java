@@ -111,7 +111,7 @@ public class DepositCalculatorImplTest {
     }
 
     @Test
-    public void itShouldThrowExceptionForInvalidTermDeposit() {
+    public void itShouldThrowExceptionWithCorrectErrorsForInvalidTermDeposit() {
         TermDeposit termDeposit = new TermDeposit.Builder()
                 .startDeposit(-10000)
                 .investmentTermMonths(-8)
