@@ -10,7 +10,9 @@ using the intellij `DepositCalculatorApplication` run configuration, alternative
 with `./mvnw spring-boot:run`
 
 ### Usage
-For help menu `help calculate-term-deposit`
+This application is a CLI tool for calculating the final balance of a term deposit.
+
+To see the help menu enter `help calculate-term-deposit`
 
 Example usage:
 ```shell
