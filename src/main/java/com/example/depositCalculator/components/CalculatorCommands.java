@@ -29,7 +29,7 @@ public class CalculatorCommands {
 
     @ShellMethod(key = "calculate-term-deposit", value = "Calculates the final balance of a term deposit")
     public String calculateTermDeposit(
-            @ShellOption(help = "Start deposit amount") int startDeposit,
+            @ShellOption(help = "Starting deposit dollar amount") int startDeposit,
             @ShellOption(help = "Decimal interest rate per annum") double interestRatePerAnnum,
             @ShellOption(help = "Investment term duration in months") int investmentTermMonths,
             @ShellOption(help = "Interest payment interval, options: [MONTHLY, QUARTERLY, ANNUALLY, AT_MATURITY]") InterestType interestType
