@@ -13,6 +13,7 @@ import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;
 import org.springframework.shell.standard.ShellOption;
 
+import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
@@ -46,7 +47,8 @@ public class CalculatorCommands {
     }
 
     private String formatBalanceString(long balance) {
-        return NumberFormat.getCurrencyInstance(Locale.US).format(balance);
+        DecimalFormat formatter = new DecimalFormat("$#,###");
+        return formatter.format(balance);
     }
 
     @ExceptionResolver({ TermDepositException.class })
