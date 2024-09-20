@@ -5,7 +5,6 @@ import com.example.depositCalculator.model.InterestType;
 import com.example.depositCalculator.model.TermDeposit;
 import com.example.depositCalculator.services.DepositCalculator;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.convert.ConversionFailedException;
 import org.springframework.shell.command.CommandExecution;
 import org.springframework.shell.command.CommandHandlingResult;
 import org.springframework.shell.command.CommandParser;

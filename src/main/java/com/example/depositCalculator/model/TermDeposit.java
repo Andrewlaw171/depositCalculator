@@ -1,8 +1,5 @@
 package com.example.depositCalculator.model;
 
-import jakarta.validation.constraints.DecimalMin;
-import jakarta.validation.constraints.NotNull;
-
 public class TermDeposit {
     private final int startingAmount;
 
