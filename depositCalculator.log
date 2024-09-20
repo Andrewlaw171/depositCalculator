@@ -1,0 +1,29 @@
+1726755325502:help
+1726755330725:calculate-deposit
+1726755455834:calculate-deposit --investmentTermMonths 36 --interestRatePerAnnum 0.011 --startDeposit 10000 --interestType MATURITY
+1726755473408:calculate-deposit --investmentTermMonths 36 --interestRatePerAnnum 0.011 --startDeposit -10000 --interestType MATURITY
+1726755667826:help
+1726755693636:calculate-term-deposit
+1726755742831:calculate-term-deposit --startDeposit 10000 --investmentTermMonths 36 --interestRatePerAnnum 0.011 --interestType MATURITY
+1726756161015:calculate-term-deposit --startDeposit -10000 --investmentTermMonths 36 --interestRatePerAnnum 0.011 --interestType MATURITY
+1726756529672:calculate-term-deposit --startDeposit 9999999 --investmentTermMonths 999999 --interestRatePerAnnum 99999 --interestType MONTHLY
+1726756664717:calculate-term-deposit --startDeposit 9999999 --investmentTermMonths 999999 --interestRatePerAnnum 99999 --interestType asd
+1726756862221:calculate-term-deposit --startDeposit 9999999 --investmentTermMonths 999999 --interestRatePerAnnum 99999 --interestType MONTHLY
+1726757640244:calculate-term-deposit --startDeposit 9999999 --investmentTermMonths 999999 --interestRatePerAnnum 99999 --interestType MON
+1726757729031:calculate-term-deposit --startDeposit 9999999 --investmentTermMonths 999999 --interestRatePerAnnum 99999 --interestType MON --stacktrace
+1726757732889:help
+1726757736386:stacktrace
+1726757737901:calculate-term-deposit --startDeposit 9999999 --investmentTermMonths 999999 --interestRatePerAnnum 99999 --interestType MON --stacktrace
+1726757739786:stacktrace
+1726760431270:calculate-term-deposit --startDeposit 9999999 --investmentTermMonths 999999 --interestRatePerAnnum 99999 --interestType MONTH
+1726760687638:ConversionFailedExceptio
+1726760695700:calculate-term-deposit --startDeposit 9999999 --investmentTermMonths 999999 --interestRatePerAnnum 99999 --interestType MON
+1726760773588:CommandExecution
+1726760774117:calculate-term-deposit --startDeposit 9999999 --investmentTermMonths 999999 --interestRatePerAnnum 99999 --interestType MON
+1726760815763:calculate-term-deposit --startDeposit 9999999 --investmentTermMonths asfd --interestRatePerAnnum asdf --interestType asdf
+1726827605607:calculate-term-deposit --startDeposit -10000 --investmentTermMonths 36 --interestRatePerAnnum 0.011 --interestType MATURITY
+1726827716443:help
+1726827723585:calculate-term-deposit --help
+1726827951757:calculate-term-deposit --startDeposit -10000 --investmentTermMonths 36 --interestRatePerAnnum 0.011 --interestType maturity
+1726828188420:calculate-term-deposit --startDeposit 10000 --investmentTermMonths 36 --interestRatePerAnnum 0.011 --interestType maturity
+1726828380742:help calculate-term-deposit
