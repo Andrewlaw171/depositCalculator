@@ -14,10 +14,8 @@ import org.springframework.shell.standard.ShellMethod;
 import org.springframework.shell.standard.ShellOption;
 
 import java.text.DecimalFormat;
-import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
 @ShellComponent
 public class CalculatorCommands {
